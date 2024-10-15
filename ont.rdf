@@ -21,22 +21,22 @@
     
 
 
-    <!-- http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasAddress -->
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasAddress -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasAddress">
+    <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasAddress">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Residential_Object"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Address"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Residential_Object"/>
+        <rdfs:range rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Address"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasEnergyAssessmentResult -->
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasEnergyAssessmentResult -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasEnergyAssessmentResult">
+    <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasEnergyAssessmentResult">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Residential_Object"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Energy_assessment"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Residential_Object"/>
+        <rdfs:range rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Energy_assessment"/>
     </owl:ObjectProperty>
     
 
@@ -52,165 +52,176 @@
     
 
 
-    <!-- http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#assessedBy -->
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#assessedBy -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#assessedBy">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#assessedBy">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Energy_assessment"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Energy_assessment"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#builtIn -->
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#builtIn -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#builtIn">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#builtIn">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Energy_assessment"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Energy_assessment"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasCalculationType -->
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasCalculationType -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasCalculationType">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasCalculationType">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Energy_assessment"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Energy_assessment"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasEmission -->
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasEmission -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasEmission">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasEmission">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Energy_assessment"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Energy_assessment"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasEnergyClass -->
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasEnergyClass -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasEnergyClass">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasEnergyClass">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Energy_assessment"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Energy_assessment"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasEnergyConsumption -->
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasEnergyConsumption -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasEnergyConsumption">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasEnergyConsumption">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Energy_assessment"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Energy_assessment"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasHouseLetter -->
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasHouseLetter -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasHouseLetter">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasHouseLetter">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Address"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Energy_assessment"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Address"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Energy_assessment"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasHouseNumber -->
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasHouseNumber -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasHouseNumber">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasHouseNumber">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Address"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Energy_assessment"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Address"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Energy_assessment"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasHouseNumberAddition -->
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasHouseNumberAddition -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasHouseNumberAddition">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasHouseNumberAddition">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Address"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Energy_assessment"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Address"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Energy_assessment"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasPostcode -->
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasObjectID -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasPostcode">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasObjectID">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Address"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Energy_assessment"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Address"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Energy_assessment"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasStreetName -->
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasPostcode -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasStreetName">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasPostcode">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Address"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Address"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Energy_assessment"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasThermalZone -->
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasStreetName -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#hasThermalZone">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasStreetName">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Energy_assessment"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasThermalZone -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasThermalZone">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Energy_assessment"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#inCity -->
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#inCity -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#inCity">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#inCity">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Address"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Address"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#inProvince -->
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#inProvince -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#inProvince">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#inProvince">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Address"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Address"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#isSideAddress -->
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#isSideAddress -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#isSideAddress">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#isSideAddress">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Address"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Address"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#manageBy -->
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#manageBy -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#manageBy">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#manageBy">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Address"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Address"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -227,21 +238,21 @@
     
 
 
-    <!-- http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Address -->
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Address -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Address"/>
+    <owl:Class rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Address"/>
     
 
 
-    <!-- http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Energy_assessment -->
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Energy_assessment -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Energy_assessment"/>
+    <owl:Class rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Energy_assessment"/>
     
 
 
-    <!-- http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Residential_Object -->
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Residential_Object -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kenyeh/ontologies/2024/9/untitled-ontology-2#Residential_Object"/>
+    <owl:Class rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Residential_Object"/>
 </rdf:RDF>
 
 
