@@ -167,6 +167,26 @@
     
 
 
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasRecordDate -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasRecordDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Energy_assessment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasRegistrationDate -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasRegistrationDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Energy_assessment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasStreetName -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasStreetName">
@@ -183,6 +203,16 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Energy_assessment"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasValidUntilDate -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#hasValidUntilDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2024-2025/9/ont#Energy_assessment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
