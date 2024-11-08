@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dcat="http://www.w3.org/ns/dcat#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:ldp="http://www.w3.org/ns/ldp#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/552d3ed7-b660-4117-851a-132562e50f93">
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-start-36b4b1ab170284bae861e26c3524cddd71201">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/552d3ed7-b660-4117-851a-132562e50f93#identifier">
+	<rdf:type rdf:resource="http://purl.org/spar/datacite/Identifier"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/552d3ed7-b660-4117-851a-132562e50f93#accessRights">
+	<rdf:type rdf:resource="http://purl.org/dc/terms/RightsStatement"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/552d3ed7-b660-4117-851a-132562e50f93">
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Energy Label</label>
+	<dcterms:title>Energy Label</dcterms:title>
+	<dcterms:hasVersion>1.0</dcterms:hasVersion>
+	<metadataIssued xmlns="https://w3id.org/fdp/fdp-o#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-03T21:08:07.025500066Z</metadataIssued>
+	<metadataModified xmlns="https://w3id.org/fdp/fdp-o#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-03T21:22:38.680829313Z</metadataModified>
+	<dcterms:license rdf:resource="http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/552d3ed7-b660-4117-851a-132562e50f93#accessRights">
+	<dcterms:description>This resource has no access restriction</dcterms:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/552d3ed7-b660-4117-851a-132562e50f93">
+	<dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<metadataIdentifier xmlns="https://w3id.org/fdp/fdp-o#" rdf:resource="https://fair.wergak.nl/dataset/552d3ed7-b660-4117-851a-132562e50f93#identifier"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/552d3ed7-b660-4117-851a-132562e50f93#identifier">
+	<dcterms:identifier>https://fair.wergak.nl/dataset/552d3ed7-b660-4117-851a-132562e50f93</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/552d3ed7-b660-4117-851a-132562e50f93">
+	<dcterms:accessRights rdf:resource="https://fair.wergak.nl/dataset/552d3ed7-b660-4117-851a-132562e50f93#accessRights"/>
+	<dcterms:publisher rdf:nodeID="genid-start-36b4b1ab170284bae861e26c3524cddd71201"/>
+	<dcterms:isPartOf rdf:resource="https://fair.wergak.nl/catalog/160c5271-5550-4207-b51f-6e259f73be9a"/>
+	<SIO_000628 xmlns="http://semanticscience.org/resource/" rdf:resource="https://fair.wergak.nl/dataset/552d3ed7-b660-4117-851a-132562e50f93/metrics/445c0a70d1e214e545b261559e2842f4"/>
+	<SIO_000628 xmlns="http://semanticscience.org/resource/" rdf:resource="https://fair.wergak.nl/dataset/552d3ed7-b660-4117-851a-132562e50f93/metrics/5d27e854a9e78eb3f663331cd47cdc13"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/552d3ed7-b660-4117-851a-132562e50f93/metrics/445c0a70d1e214e545b261559e2842f4">
+	<SIO_000628 xmlns="http://semanticscience.org/resource/" rdf:resource="https://www.ietf.org/rfc/rfc3986.txt"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/552d3ed7-b660-4117-851a-132562e50f93/metrics/5d27e854a9e78eb3f663331cd47cdc13">
+	<SIO_000628 xmlns="http://semanticscience.org/resource/" rdf:resource="https://www.wikidata.org/wiki/Q8777"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/552d3ed7-b660-4117-851a-132562e50f93/metrics/445c0a70d1e214e545b261559e2842f4">
+	<SIO_000332 xmlns="http://semanticscience.org/resource/" rdf:resource="https://www.ietf.org/rfc/rfc3986.txt"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/552d3ed7-b660-4117-851a-132562e50f93/metrics/5d27e854a9e78eb3f663331cd47cdc13">
+	<SIO_000332 xmlns="http://semanticscience.org/resource/" rdf:resource="https://www.wikidata.org/wiki/Q8777"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/552d3ed7-b660-4117-851a-132562e50f93">
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-31T23:00:00Z</dcterms:modified>
+	<dcat:distribution rdf:resource="https://fair.wergak.nl/distribution/1118b647-0e72-41b2-815c-81376fd67d3d"/>
+	<dcat:distribution rdf:resource="https://fair.wergak.nl/distribution/f5544ba3-5b87-4211-aad6-7cb221a6656c"/>
+	<dcterms:spatial>Netherlands</dcterms:spatial>
+	<dcterms:wasGeneratedBy>Rijksdienst voor Ondernemend Nederland(RVO)</dcterms:wasGeneratedBy>
+	<dcat:keyword>Netherlands</dcat:keyword>
+	<dcat:keyword>CO2 Consumption</dcat:keyword>
+	<dcat:keyword>Energy Index</dcat:keyword>
+	<dcat:keyword>Energy label</dcat:keyword>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/distribution/">
+	<rdf:type rdf:resource="http://www.w3.org/ns/ldp#DirectContainer"/>
+	<dcterms:title>Distributions</dcterms:title>
+	<ldp:membershipResource rdf:resource="https://fair.wergak.nl/dataset/552d3ed7-b660-4117-851a-132562e50f93"/>
+	<ldp:hasMemberRelation rdf:resource="http://www.w3.org/ns/dcat#distribution"/>
+	<ldp:contains rdf:resource="https://fair.wergak.nl/distribution/1118b647-0e72-41b2-815c-81376fd67d3d"/>
+	<ldp:contains rdf:resource="https://fair.wergak.nl/distribution/f5544ba3-5b87-4211-aad6-7cb221a6656c"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/552d3ed7-b660-4117-851a-132562e50f93">
+	<dcterms:conformsTo rdf:resource="https://fair.wergak.nl/profile/2f08228e-1789-40f8-84cd-28e3288c3604"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/profile/2f08228e-1789-40f8-84cd-28e3288c3604">
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Dataset Profile</label>
+</rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dcat="http://www.w3.org/ns/dcat#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:ldp="http://www.w3.org/ns/ldp#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="https://fair.wergak.nl/distribution/">
+	<rdf:type rdf:resource="http://www.w3.org/ns/ldp#DirectContainer"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c">
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c#identifier">
+	<rdf:type rdf:resource="http://purl.org/spar/datacite/Identifier"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c#accessRights">
+	<rdf:type rdf:resource="http://purl.org/dc/terms/RightsStatement"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-start-36b4b1ab170284bae861e26c3524cddd73780">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/profile/2f08228e-1789-40f8-84cd-28e3288c3604">
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Dataset Profile</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c">
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">NL Addresses (BAG ATOM)</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/distribution/">
+	<dcterms:title>Distributions</dcterms:title>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c">
+	<dcterms:title>NL Addresses (BAG ATOM)</dcterms:title>
+	<dcterms:hasVersion>2.0</dcterms:hasVersion>
+	<metadataIssued xmlns="https://w3id.org/fdp/fdp-o#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-03T20:40:52.202336486Z</metadataIssued>
+	<metadataModified xmlns="https://w3id.org/fdp/fdp-o#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-08T11:06:44.872693282Z</metadataModified>
+	<dcterms:license rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/ConditionsApplyingToAccessAndUse/noConditionsApply"/>
+	<dcterms:description>The data consists of BAG buildings, a sub-selection of BAG data of these buildings and the residential objects located in them. The moorings and pitches are also included with a sub-selection of BAG data. Number designations (and the associated Number designation identifications) are not included in the WFS as a separate object. The data of the number designations are part of the addressable objects in these services.</dcterms:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c#accessRights">
+	<dcterms:description>This resource has no access restriction</dcterms:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c">
+	<dcterms:conformsTo rdf:resource="https://fair.wergak.nl/profile/2f08228e-1789-40f8-84cd-28e3288c3604"/>
+	<dcterms:language rdf:resource="https://id.loc.gov/vocabulary/iso639-1/nl.html"/>
+	<metadataIdentifier xmlns="https://w3id.org/fdp/fdp-o#" rdf:resource="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c#identifier"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c#identifier">
+	<dcterms:identifier>https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c">
+	<dcterms:accessRights rdf:resource="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c#accessRights"/>
+	<dcterms:publisher rdf:nodeID="genid-start-36b4b1ab170284bae861e26c3524cddd73780"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-start-36b4b1ab170284bae861e26c3524cddd73780">
+	<foaf:name>Kadaster</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c">
+	<dcterms:isPartOf rdf:resource="https://fair.wergak.nl/catalog/4436ce26-4f8c-4ab8-bb2f-8cc39af070c0"/>
+	<SIO_000628 xmlns="http://semanticscience.org/resource/" rdf:resource="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c/metrics/445c0a70d1e214e545b261559e2842f4"/>
+	<SIO_000628 xmlns="http://semanticscience.org/resource/" rdf:resource="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c/metrics/5d27e854a9e78eb3f663331cd47cdc13"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c/metrics/445c0a70d1e214e545b261559e2842f4">
+	<SIO_000628 xmlns="http://semanticscience.org/resource/" rdf:resource="https://www.ietf.org/rfc/rfc3986.txt"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c/metrics/5d27e854a9e78eb3f663331cd47cdc13">
+	<SIO_000628 xmlns="http://semanticscience.org/resource/" rdf:resource="https://www.wikidata.org/wiki/Q8777"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c/metrics/445c0a70d1e214e545b261559e2842f4">
+	<SIO_000332 xmlns="http://semanticscience.org/resource/" rdf:resource="https://www.ietf.org/rfc/rfc3986.txt"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c/metrics/5d27e854a9e78eb3f663331cd47cdc13">
+	<SIO_000332 xmlns="http://semanticscience.org/resource/" rdf:resource="https://www.wikidata.org/wiki/Q8777"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c">
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-05-31T22:00:00Z</dcterms:issued>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-31T23:00:00Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/distribution/">
+	<ldp:hasMemberRelation rdf:resource="http://www.w3.org/ns/dcat#distribution"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c">
+	<dcat:distribution rdf:resource="https://fair.wergak.nl/distribution/a5dc63c7-4985-4c6f-9a4e-0ee1ee86ad6e"/>
+	<dcat:distribution rdf:resource="https://fair.wergak.nl/distribution/c99eeca9-8ec1-4dd1-8a54-e2033fb2f846"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/distribution/">
+	<ldp:membershipResource rdf:resource="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c"/>
+	<ldp:contains rdf:resource="https://fair.wergak.nl/distribution/a5dc63c7-4985-4c6f-9a4e-0ee1ee86ad6e"/>
+	<ldp:contains rdf:resource="https://fair.wergak.nl/distribution/c99eeca9-8ec1-4dd1-8a54-e2033fb2f846"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c">
+	<dcterms:rights rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/deed.nl"/>
+	<dcterms:spatial>Netherlands</dcterms:spatial>
+	<dcterms:wasGeneratedBy>Kadaster</dcterms:wasGeneratedBy>
+	<dcat:keyword>Address</dcat:keyword>
+	<dcat:keyword>Netherlands</dcat:keyword>
+	<dcat:keyword>Location</dcat:keyword>
+	<dcat:keyword>Postcode</dcat:keyword>
+	<dcat:landingPage rdf:resource="https://www.pdok.nl/introductie/-/article/basisregistratie-adressen-en-gebouwen-ba-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/distribution/">
+	<rdf:type rdf:resource="http://www.w3.org/ns/ldp#DirectContainer"/>
+	<dcterms:title>Distributions</dcterms:title>
+	<ldp:membershipResource rdf:resource="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c"/>
+	<ldp:hasMemberRelation rdf:resource="http://www.w3.org/ns/dcat#distribution"/>
+	<ldp:contains rdf:resource="https://fair.wergak.nl/distribution/a5dc63c7-4985-4c6f-9a4e-0ee1ee86ad6e"/>
+	<ldp:contains rdf:resource="https://fair.wergak.nl/distribution/c99eeca9-8ec1-4dd1-8a54-e2033fb2f846"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c">
+	<dcterms:conformsTo rdf:resource="https://fair.wergak.nl/profile/2f08228e-1789-40f8-84cd-28e3288c3604"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/profile/2f08228e-1789-40f8-84cd-28e3288c3604">
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Dataset Profile</label>
+</rdf:Description>
+
+</rdf:RDF>
