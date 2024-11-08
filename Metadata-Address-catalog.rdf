@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dcat="http://www.w3.org/ns/dcat#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:ldp="http://www.w3.org/ns/ldp#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="https://fair.wergak.nl/catalog/4436ce26-4f8c-4ab8-bb2f-8cc39af070c0">
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-start-36b4b1ab170284bae861e26c3524cddd7304">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/catalog/4436ce26-4f8c-4ab8-bb2f-8cc39af070c0#identifier">
+	<rdf:type rdf:resource="http://purl.org/spar/datacite/Identifier"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/catalog/4436ce26-4f8c-4ab8-bb2f-8cc39af070c0#accessRights">
+	<rdf:type rdf:resource="http://purl.org/dc/terms/RightsStatement"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/catalog/4436ce26-4f8c-4ab8-bb2f-8cc39af070c0">
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Address</label>
+	<dcterms:title>Address</dcterms:title>
+	<metadataIssued xmlns="https://w3id.org/fdp/fdp-o#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-03T20:17:45.919403708Z</metadataIssued>
+	<metadataModified xmlns="https://w3id.org/fdp/fdp-o#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-08T11:06:44.919405936Z</metadataModified>
+	<dcterms:license rdf:resource="http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/catalog/4436ce26-4f8c-4ab8-bb2f-8cc39af070c0#accessRights">
+	<dcterms:description>This resource has no access restriction</dcterms:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/catalog/4436ce26-4f8c-4ab8-bb2f-8cc39af070c0">
+	<dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<metadataIdentifier xmlns="https://w3id.org/fdp/fdp-o#" rdf:resource="https://fair.wergak.nl/catalog/4436ce26-4f8c-4ab8-bb2f-8cc39af070c0#identifier"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/catalog/4436ce26-4f8c-4ab8-bb2f-8cc39af070c0#identifier">
+	<dcterms:identifier>https://fair.wergak.nl/catalog/4436ce26-4f8c-4ab8-bb2f-8cc39af070c0</dcterms:identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/catalog/4436ce26-4f8c-4ab8-bb2f-8cc39af070c0">
+	<dcterms:accessRights rdf:resource="https://fair.wergak.nl/catalog/4436ce26-4f8c-4ab8-bb2f-8cc39af070c0#accessRights"/>
+	<dcterms:publisher rdf:nodeID="genid-start-36b4b1ab170284bae861e26c3524cddd7304"/>
+	<dcterms:isPartOf rdf:resource="https://fair.wergak.nl"/>
+	<SIO_000628 xmlns="http://semanticscience.org/resource/" rdf:resource="https://fair.wergak.nl/catalog/4436ce26-4f8c-4ab8-bb2f-8cc39af070c0/metrics/445c0a70d1e214e545b261559e2842f4"/>
+	<SIO_000628 xmlns="http://semanticscience.org/resource/" rdf:resource="https://fair.wergak.nl/catalog/4436ce26-4f8c-4ab8-bb2f-8cc39af070c0/metrics/5d27e854a9e78eb3f663331cd47cdc13"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/catalog/4436ce26-4f8c-4ab8-bb2f-8cc39af070c0/metrics/445c0a70d1e214e545b261559e2842f4">
+	<SIO_000628 xmlns="http://semanticscience.org/resource/" rdf:resource="https://www.ietf.org/rfc/rfc3986.txt"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/catalog/4436ce26-4f8c-4ab8-bb2f-8cc39af070c0/metrics/5d27e854a9e78eb3f663331cd47cdc13">
+	<SIO_000628 xmlns="http://semanticscience.org/resource/" rdf:resource="https://www.wikidata.org/wiki/Q8777"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/catalog/4436ce26-4f8c-4ab8-bb2f-8cc39af070c0/metrics/445c0a70d1e214e545b261559e2842f4">
+	<SIO_000332 xmlns="http://semanticscience.org/resource/" rdf:resource="https://www.ietf.org/rfc/rfc3986.txt"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/catalog/4436ce26-4f8c-4ab8-bb2f-8cc39af070c0/metrics/5d27e854a9e78eb3f663331cd47cdc13">
+	<SIO_000332 xmlns="http://semanticscience.org/resource/" rdf:resource="https://www.wikidata.org/wiki/Q8777"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/catalog/4436ce26-4f8c-4ab8-bb2f-8cc39af070c0">
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-03T20:17:45.919403708Z</dcterms:issued>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-03T20:17:45.919403708Z</dcterms:modified>
+	<dcat:dataset rdf:resource="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/dataset/">
+	<rdf:type rdf:resource="http://www.w3.org/ns/ldp#DirectContainer"/>
+	<dcterms:title>Datasets</dcterms:title>
+	<ldp:membershipResource rdf:resource="https://fair.wergak.nl/catalog/4436ce26-4f8c-4ab8-bb2f-8cc39af070c0"/>
+	<ldp:hasMemberRelation rdf:resource="http://www.w3.org/ns/dcat#dataset"/>
+	<ldp:contains rdf:resource="https://fair.wergak.nl/dataset/5f555bfb-efd8-4dc3-8a7e-d8ea6864f24c"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/catalog/4436ce26-4f8c-4ab8-bb2f-8cc39af070c0">
+	<dcterms:conformsTo rdf:resource="https://fair.wergak.nl/profile/a0949e72-4466-4d53-8900-9436d1049a4b"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://fair.wergak.nl/profile/a0949e72-4466-4d53-8900-9436d1049a4b">
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Catalog Profile</label>
+</rdf:Description>
+
+</rdf:RDF>
